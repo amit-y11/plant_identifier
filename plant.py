@@ -23,7 +23,7 @@ def rate(update,context):
 
 @run_async    
 def donate(update,context):
-    update.message.reply_text("If you really liked ❤️ this bot and want to support it and help me to pay for the server expenses , you can donate me any amount you wish because _every penny counts\.\.\._\nYour support can really help this bot to run *24x7*  \n*Payment Options* \n\n1\. [Paypal](https://paypal.me/yamit11) \n\n2\. UPI : `amity11@kotak` \n\n3\. [Debit/Credit cards/UPI](https://rzp.io/l/amity11)\nIf you want different payment option please contact @amit\_y11",parse_mode=telegram.ParseMode.MARKDOWN_V2)
+    update.message.reply_text("If you really liked ❤️ this bot and want to support it and help me to pay for the server expenses , you can donate to me any amount you wish because _every penny counts\.\.\._\nYour support can really help this bot to run *24x7*  \n*Payment Options* \n\n1\. [Paypal](https://paypal.me/yamit11) \n\n2\. UPI : `amity11@kotak` \n\n3\. [Debit/Credit cards/UPI](https://rzp.io/l/amity11)\nIf you want different payment option please contact @amit\_y11",parse_mode=telegram.ParseMode.MARKDOWN_V2)
     
 def encode_files(file_names):
     files_encoded = []
@@ -62,7 +62,7 @@ def identify (update,context):
         newFile=context.bot.get_file(file_id)
         newFile.download(file)
         images.insert(i-1,file)
-        context.bot.send_message(chat_id=chat_id,text="Click Add image option to add another image of the plant or click process button to start processing with the sended image",reply_markup=reply_markup)
+        context.bot.send_message(chat_id=chat_id,text="Click Add image option to add another image of the plant or click process button to start processing with the sent image",reply_markup=reply_markup)
     else:
         update.message.reply_text("You need to be a member of @botsbyamit in order to use this bot.\n\nPlease join @botsbyamit and send your image again to continue.")
 
@@ -102,7 +102,7 @@ def button(update,context):
             images.clear()
     
     elif query.data=="add":
-        query.edit_message_text(text="Okay send another image of the same plant")
+        query.edit_message_text(text="Send another image of the same plant")
     return images
 
 @run_async
@@ -110,7 +110,7 @@ def clear(update,context):
 	try:
 		images=context.user_data['images']
 	except KeyError:
-		update.message.reply_text("You haven't sended any image of the plant yet")
+		update.message.reply_text("You haven't sent any image of the plant yet")
 	images.clear()
 	update.message.reply_text("All images removed")
 
@@ -119,20 +119,20 @@ def remove(update,context):
     try:
         images=context.user_data['images']
     except KeyError:
-        update.message.reply_text("You haven't sended any image of the plant yet")
+        update.message.reply_text("You haven't sent any image of the plant yet")
     if len(images)==0:
-        update.message.reply_text("You haven't sended any image of the plant yet")
+        update.message.reply_text("You haven't sent any image of the plant yet")
     else:
         images.pop()
-        update.message.reply_text("Last image sended by you is been removed",reply_markup=reply_markup)
+        update.message.reply_text("Last image sent by you is been removed",reply_markup=reply_markup)
 	
 def getinfo(update,context):
 	try:
 		images=context.user_data['images']
 	except KeyError:
-		update.message.reply_text("You have not sended any images yet")
+		update.message.reply_text("You have not sent any images yet")
 	info=len(images)
-	update.message.reply_text("You have sended "+str(info)+" images")
+	update.message.reply_text("You have sent "+str(info)+" images")
 	
 	
 
