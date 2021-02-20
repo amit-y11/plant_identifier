@@ -17,24 +17,23 @@ You can send a screenshot of a plant to this bot and it will respond quickly wit
 --- 
 
 # Installation : 
-Clone this repository using
+* Clone this repository using
 ```sh
 $ git clone https://github.com/amit-y11/plant_identifier
 ```
-Enter the directory and install all the requirements using
+* Enter the directory and install all the requirements using
 ```sh
 $ pip3 install -r requirements.txt
 ```
-Get your bot token from [Bot Father](https://t.me/BotFather),
-If you dont't know how to get bot token read [this](https://core.telegram.org/bots#6-botfather)
+* Get your bot token from [Bot Father](https://t.me/BotFather), If you dont't know how to get bot token read [this](https://core.telegram.org/bots#6-botfather)
 
-Get your plant.id api key from [here](https://web.plant.id/api-access-request/)
+* Get your plant.id api key from [here](https://web.plant.id/api-access-request/)
 
-Edit line 80 and paste your plant.id api key
+* Edit line 80 and paste your plant.id api key
 ```sh
 80        api_key = "Your Api key from Plant.id"
 ```
-Edit line 141 and paste your Bot token
+* Edit line 141 and paste your Bot token
 ```sh
 141       token="Your Bot Token"
 ```
