@@ -6,7 +6,6 @@ A telegram bot for identifying plants:
 You can send a screenshot of a plant to this bot and it will respond quickly with the identified plant in the picture! 
 
 # Usage
-* Open this page with a device where you have [Telegram](https://telegram.org) installed
 * Click [here](https://t.me/plantIdentifyBot) to open the chat with the bot in the Telegram app
 * Join this [Telegram channel](https://t.me/botsbyamit) in order to use this bot
 
