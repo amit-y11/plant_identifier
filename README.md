@@ -1,4 +1,6 @@
 # Plant Identifier Bot 🌵
+<img src="plant.png" alt="logo" width="250px" height="250px"/>
+
 A telegram bot for identifying plants:
 
 You can send a screenshot of a plant to this bot and it will respond quickly with the identified plant in the picture! 
@@ -9,6 +11,4 @@ You can send a screenshot of a plant to this bot and it will respond quickly wit
 * Join this [Telegram channel](https://t.me/botsbyamit) in order to use this bot
 
 # Captures
-[![Bot start](https://i.imgur.com/67dX2lv.jpg)](https://i.imgur.com/67dX2lv.jpg)
-[![Bot input](https://i.imgur.com/WXFmouR.jpg)](https://i.imgur.com/WXFmouR.jpg)
-[![Bot output](https://i.imgur.com/8Nzwecf.jpg)](https://i.imgur.com/8Nzwecf.jpg)
+<img src="captures.png" alt="PlantIdentifier Bot"/>
