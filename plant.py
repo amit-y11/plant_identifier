@@ -43,7 +43,7 @@ def identify (update,context):
     chat_id=update.effective_chat.id
     #####################
 
-    check=context.bot.get_chat_member("@botsbyamit",update.effective_chat)
+    check=context.bot.get_chat_member("@botsbyamit",update.effective_chat.id)
     if check['status']=="member" or check['status']=="creator":
         try:
             images = context.user_data['images']
