@@ -1,0 +1,22 @@
+{
+    "name": "Plant Identifier Bot",
+    "description": "Telegram bot for identifying plant",
+    "author": "Amit",
+    "keywords": [
+        "python",
+        "plant_identify",
+        "plants"
+    ],
+    "repository": "https://github.com/amit-y11/plant_identifier",
+    "env":{
+        "bot_token":{
+            "description":"Telegram bot token",
+            "required":"True"
+        },
+        "api_key":{
+            "description":"Api key from plantnet.org",
+            "required":"True"
+        }
+    }
+
+}
