@@ -9,16 +9,22 @@ A telegram bot for identifying plants:
 You can send a screenshot of a plant to this bot and it will respond quickly with the identified plant in the picture! 
 
 ---
-# Screenshots
+## Screenshots
 <img src="captures.png" alt="PlantIdentifier Bot"/>
 
 --- 
+## Requirements
+
+* Bot token from [Bot Father](https://t.me/BotFather), If you dont't know how to get bot token read [this](https://core.telegram.org/bots#6-botfather)
+
+* Plantnet.org api key, get your api key from [here](https://my.plantnet.org/)
+
 #### You can fork the repo and deploy it on Heroku :)  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ---
-# Installation : 
+## Installation 
 * Clone this repository using
 ```sh
 $ git clone https://github.com/amit-y11/plant_identifier
@@ -27,10 +33,6 @@ $ git clone https://github.com/amit-y11/plant_identifier
 ```sh
 $ pip3 install -r requirements.txt
 ```
-* Get your bot token from [Bot Father](https://t.me/BotFather), If you dont't know how to get bot token read [this](https://core.telegram.org/bots#6-botfather)
-
-* Get your plantnet.org api key from [here](https://my.plantnet.org/)
-
 * Edit line 15 and paste your plantnet.org api key
 ```sh
 15        api_key = "Your Api key from Plant.id"
