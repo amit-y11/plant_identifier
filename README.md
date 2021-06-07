@@ -1,21 +1,23 @@
-# Plant Identifier Bot 🌵
+# <h1 align=center>Plant Identifier Bot 🌵</h1>
 
-### Show some :heart: and :star: the repo
+<p align=center><img src="plant.png" alt="logo" width="250px" height="250px"/></p>
 
-<img src="plant.png" alt="logo" width="250px" height="250px"/>
+<h3 align=center>A telegram bot for identifying plants</h3>
 
-A telegram bot for identifying plants:
 
-You can send a screenshot of a plant to this bot and it will respond quickly with the identified plant in the picture! 
 
----
+## About
+
+You can send an image of a plant to this bot and it will respond quickly with the identified plant in the picture!
+
+
 ## Screenshots
 <img src="captures.png" alt="PlantIdentifier Bot"/>
 
 --- 
 ## Requirements
 
-* Bot token from [Bot Father](https://t.me/BotFather), If you dont't know how to get bot token read [this](https://core.telegram.org/bots#6-botfather)
+* Bot token from [Bot Father](https://t.me/BotFather), If you don't know how to get bot token, read [this](https://core.telegram.org/bots#6-botfather)
 
 * Plantnet.org api key, get your api key from [here](https://my.plantnet.org/)
 
@@ -41,7 +43,7 @@ $ pip3 install -r requirements.txt
 ```sh
 16       token="Your Bot Token"
 ```
-#### Run Your Bot using following command :
+#### Run Your Bot using the following command :
 ```sh
 $  python3 plant.py
 ```
