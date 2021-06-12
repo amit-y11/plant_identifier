@@ -1,6 +1,6 @@
 # <h1 align=center>Plant Identifier Bot 🌵</h1>
 
-<p align=center><img src="plant.png" alt="logo" width="250px" height="250px"/></p>
+<p align=center><img src="images/plant.png" alt="logo" width="250px" height="250px"/></p>
 
 <h3 align=center>A telegram bot for identifying plants</h3>
 
@@ -10,9 +10,11 @@
 
 You can send an image of a plant to this bot and it will respond quickly with the identified plant in the picture!
 
+Start chat with this bot on [telegram](https://telegram.me/plantidentifybot)
+
 
 ## Screenshots
-<img src="captures.png" alt="PlantIdentifier Bot"/>
+<img src="images/captures.png" alt="PlantIdentifier Bot"/>
 
 --- 
 ## Requirements
@@ -21,12 +23,15 @@ You can send an image of a plant to this bot and it will respond quickly with th
 
 * Plantnet.org api key, get your api key from [here](https://my.plantnet.org/)
 
+---
+## Installation 
+
 #### You can fork the repo and deploy it on Heroku :)  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
----
-## Installation 
+OR
+
 * Clone this repository using
 ```sh
 $ git clone https://github.com/amit-y11/plant_identifier
