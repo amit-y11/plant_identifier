@@ -2,7 +2,7 @@
 
 <p align=center><img src="images/plant.png" alt="logo" width="250px" height="250px"/></p>
 
-<h3 align=center>A telegram bot for identifying plants</h3>
+
 
 
 
